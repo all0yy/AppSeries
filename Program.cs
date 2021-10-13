@@ -90,8 +90,19 @@ namespace DIO.Series
 			}
 
 			Console.Write("Digite o gênero entre as opções acima: ");
-			int entradaGenero = int.Parse(Console.ReadLine());
+			if (decimal.TryParse(Console.ReadLine(), out decimal entradaGenero))
+			{
+				
+			}
+			else
+			{
+				Console.Write(" ///////////// ");
 
+				Console.Write(" Valor Invalido, insira um valor númerico ");
+				
+				Console.Write(" ////////////// ");
+				return;
+			}
 			Console.Write("Digite o Título da Série: ");
 			string entradaTitulo = Console.ReadLine();
 
@@ -99,7 +110,7 @@ namespace DIO.Series
 			int entradaAno = int.Parse(Console.ReadLine());
 
 			Console.Write("Digite a Descrição da Série: ");
-			string entradaDescricao = Console.ReadLine();
+			string entradaDescricao = Console.	ReadLine();
 
 			Serie novaSerie = new Serie(id: repositorio.ProximoId(),
 										genero: (Genero)entradaGenero,
@@ -121,7 +132,19 @@ namespace DIO.Series
 			}
 
 			Console.Write("Digite o gênero entre as opções acima: ");
-			int entradaGenero = int.Parse(Console.ReadLine());
+			if (decimal.TryParse(Console.ReadLine(), out decimal entradaGenero))
+			{
+				
+			}
+			else
+			{
+				Console.Write(" ///////////// ");
+
+				Console.Write(" Valor Invalido, insira um valor númerico ");
+				
+				Console.Write(" ////////////// ");
+				return;
+			}
 
 			Console.Write("Digite o Título da Série: ");
 			string entradaTitulo = Console.ReadLine();
