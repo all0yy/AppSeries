@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gabriel\\Documents\\GitHub\\DIO-App-Series\\DIO.Series.csproj": {}
+    "C:\\Users\\Gabriel\\DIO-App-Series-1\\DIO.Series.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gabriel\\Documents\\GitHub\\DIO-App-Series\\DIO.Series.csproj": {
+    "C:\\Users\\Gabriel\\DIO-App-Series-1\\DIO.Series.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gabriel\\Documents\\GitHub\\DIO-App-Series\\DIO.Series.csproj",
+        "projectUniqueName": "C:\\Users\\Gabriel\\DIO-App-Series-1\\DIO.Series.csproj",
         "projectName": "DIO.Series",
-        "projectPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\DIO-App-Series\\DIO.Series.csproj",
+        "projectPath": "C:\\Users\\Gabriel\\DIO-App-Series-1\\DIO.Series.csproj",
         "packagesPath": "C:\\Users\\Gabriel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gabriel\\Documents\\GitHub\\DIO-App-Series\\obj\\",
+        "outputPath": "C:\\Users\\Gabriel\\DIO-App-Series-1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.402\\RuntimeIdentifierGraph.json"
         }
       }
     }
